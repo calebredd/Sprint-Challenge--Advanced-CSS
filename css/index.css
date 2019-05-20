@@ -179,6 +179,9 @@ p {
   justify-content: space-around;
   align-items: center;
 }
+.navbar nav a {
+  text-decoration: none;
+}
 .navbar nav nav-item {
   line-height: 40px;
   font-size: 15px;
@@ -327,4 +330,32 @@ footer {
     width: 100%;
     margin: 20px 0;
   }
+}
+.home form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #F1F1F1;
+  margin: 20px auto;
+  padding: 10px;
+  width: 70%;
+  font-weight: bolder;
+  font-size: 15px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.home .blog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #F1F1F1;
+  margin: 30px auto;
+  padding: 10px;
+  width: 100%;
+  font-weight: bolder;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px gray;
 }
