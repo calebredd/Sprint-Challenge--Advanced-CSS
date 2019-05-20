@@ -1,12 +1,5 @@
 //out:false
 // Navigation code here
-body {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .navbar {
   width: 100vw;
   .flex(column, center, center);
@@ -18,16 +11,17 @@ body {
   }
 
   nav {
-    width: 40%;
+    width: 65%;
     .flex(row, space-around, center);
-
-    @media @phone {
-      width: 100%;
-    }
 
     nav-item {
       line-height: 40px;
       font-size: 15px;
+
+    }
+
+    @media @phone {
+      width: 100%;
     }
   }
 }

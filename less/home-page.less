@@ -101,13 +101,16 @@
         &:hover {
           .custom-button(@sea-shell, @btn-bg-color);
           border: 1px solid @btn-bg-color;
-          padding: 20px 33%;
-          width: 100%;
         }
 
         @media @phone {
           width: 100%;
           padding: 20px 33%;
+
+          &:hover {
+            padding: 20px 33%;
+            width: 100%;
+          }
         }
       }
     }
