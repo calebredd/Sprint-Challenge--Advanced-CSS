@@ -166,6 +166,12 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  background: rgba(241, 241, 241, 0.5);
+}
+.navbar,
+.navbar a {
+  color: #22283A;
 }
 .navbar h1 {
   text-align: center;
@@ -203,6 +209,7 @@ footer {
 }
 .home {
   width: 100vw;
+  padding-top: 100px;
 }
 .home .intro .img-header img {
   width: 100%;
