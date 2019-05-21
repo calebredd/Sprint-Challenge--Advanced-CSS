@@ -1,1 +1,19 @@
+//out:false
 // Mixins Here
+
+.custom-button(@background, @color) {
+  border-radius: 10px;
+  background: @background;
+  color: @color;
+  font-size: 20px;
+  text-align: center;
+  width: 40%;
+  padding: 10px;
+}
+
+.flex(@direction, @justify, @align) {
+  display: flex;
+  flex-direction: @direction;
+  justify-content: @justify;
+  align-items: @align;
+}
